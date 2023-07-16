@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/48a1cfc20b.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!--- Style File connnetion-->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/static/favicon_io/site.webmanifest">
+
+    <!-- title -->
+    <title>CheckMyAnswer</title>
+
+    <!-- style -->
+    <style>
+        * {
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        div.container {
+            margin-top: 20px;
+        }
+
+        /*
+        .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+            background-color: rgb(255 216 180 / 0.9) !important;
+        }
+        */
+
+        .login-wrap {
+            width: 100%;
+            margin: auto;
+            margin-top: 15px;
+            max-width: 600px;
+            min-height: 630px;
+            position: relative;
+            box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
+             0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        }
+        .login-html {
+         width: 100%;
+         height: 100%;
+         position: absolute;
+         padding: 30px 70px 50px 70px;
+         background: whitesmoke;
+        }
+        .login-wrap1 {
+            width: 100%;
+            margin: auto;
+            margin-top: 15px;
+            max-width: 550px;
+            min-height: 285px;
+            position: relative;
+            box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
+             0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        }
+        .login-html1 {
+         width: 100%;
+         height: 100%;
+         position: absolute;
+         padding: 30px 70px 50px 70px;
+         background: whitesmoke;
+        }
+        div.container h1{
+            color: greenyellow;
+            font-size: 40px;
+            font-weight: 600;
+            padding-top: -30px;
+        } 
+        div.container h2{
+            font-weight: 500;
+        }
+        div.container label{
+            font-weight: 500;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <h1>CheckMyAnswer</h1>
+        </center>
+        <hr>
+        <!-- Question & Model Answer -->
+        <div class="row">
+            <!-- For student & model answer -->
+            <div class="col">
+                <div class="login-wrap">
+                    <div class="login-html">
+                <form action="/predict" method="POST">
+                    <div class="mb-3">
+                        <label for="Question" class="form-label"> Question)  What is Machine Learning. </label>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Student answer" class="form-label">Student Answer:</label>
+                        <textarea class="form-control" id="student_ans" name="student_ans" placeholder="Enter your text here..." required style="height: 200px;">{{dict['student_ans']}}</textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Model answer" class="form-label">Model Answer:</label>
+                        <textarea class="form-control" id="model_ans" name="model_ans" placeholder="Enter your text here..." required style="height: 200px;">{{dict['model_ans']}}</textarea>
+                    </div>
+                    <div class="row">
+                        <div class="col d-grid">
+                            <input class="btn btn-outline-secondary" type="reset" value="reset">
+                        </div>
+
+                        <div class="col d-grid">
+                            <button type="submit" class="btn btn-outline-warning" id="submit_msg">Submit</button>
+                        </div>
+                    </div>
+                </form>
+                </div>
+                </div>
+            </div>
+            <!-- For results -->
+            <div class="col">
+                <div class="login-wrap1">
+                    <div class="login-html1">
+                <hr>
+                <div class="row">
+                    <div class="col-9">
+                        <h4>Marks</h4>
+                    </div>
+
+                    <div class="col-3">
+                        <h4>{{dict["marks"]}}</h4>
+                    </div>
+
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
