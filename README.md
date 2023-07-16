@@ -24,11 +24,14 @@ Dataset Link: https://nlp.stanford.edu/projects/snli/
 - Home Page of CheckMyAnswer:
 ![App Screenshot](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOPUIqKY1W1q-bZaw2O0FIXfZT6fFMZtYsS8ePZMV8icms7Hu5R6guqTgkKxwBm9tPfCTcUFovUnJtojurcn9LItMTRCizsx5Hxxk4c3ge8RpL-4YgMdgEs0ywCif4EDAyJlbLVBy2o7Fjz8C3h1uOPSLBMd6W1suu_wDZKzQMrs_pDCZBTtwMpop1I0ea/s1600/Home.png)
 
+
 - When answer by student and teacher is similar:
 ![App Screenshot](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiygWMvTwZqQwfwt75TStQkIulYLumbDRQKXT0UtLflmriwBCLC9GlakzNsyc9b3PUFyJh2a29Q4hHY-eDONInB94UOQxeWE96LckMj_qVnY1jPR8mwaemEoZr18tjKsaGiyGCYqAhOsr6TTDb7OUjMGZjlVAaS0tWG7kPTqhNq7Gz7x_4ZNgUhQeSlm8uw/s1600/Home1.png)
 
+
 - When answer by student is correct but wordings are different than teacher’s answer:
 ![App Screenshot](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5_zIctHKxW5TWOQf9byn70Wdjtx_VTBZiMqzkH2xTY2ivKQKBHX2ad_PUJW72d9KRlVP9FpA1Cq5w7mOlLIR-kpmg4Yjjj_RfsB4OA1W0rSzp6qpbAQtiFR-q-PI9Na5BvVcVrcqMnQQIFalLEbaCG7-piLOyunP8P-gq4B7NzG-IlwBxPfBZlVHZ2WxR/s1600/Home2.png)
+
 
 - When answer by student is wrong and doesn’t match to teacher answer:
 ![App Screenshot](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWib_CJZWbG7YAeRHa80Fp1saMfIegXOKF_jkViWKNru_xuCy2L_SgQ_U9CslS3kQ5wJSLpdlvkS04WfOO_dEeYc35T72xdUr9SVDpR-9SoLyUFIA64YnzpF6vuPYI4Uu2Y-hqS4wh-v_RLzrCIfPOvSNkK1R0-kx_8WNrMTHtIyeldAeWlmLgmp2wBJ3S/s1600/Home3.png)
