@@ -36,7 +36,6 @@ Dataset Link: https://nlp.stanford.edu/projects/snli/
 - When answer by student is wrong and doesn’t match to teacher answer:
 ![App Screenshot](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWib_CJZWbG7YAeRHa80Fp1saMfIegXOKF_jkViWKNru_xuCy2L_SgQ_U9CslS3kQ5wJSLpdlvkS04WfOO_dEeYc35T72xdUr9SVDpR-9SoLyUFIA64YnzpF6vuPYI4Uu2Y-hqS4wh-v_RLzrCIfPOvSNkK1R0-kx_8WNrMTHtIyeldAeWlmLgmp2wBJ3S/s1600/Home3.png)
 
-
 ## Installation
 
 Install my-project with pip
@@ -51,9 +50,13 @@ Install my-project with pip
 
   # Install requirements.py i.e. requried files
   pip install -r requirements.txt
-
-  # To Run Python Code or run Server
-  python main.py
-
 ```
-    
+
+## Deployment
+
+To Run Python Code or run Server
+
+```bash
+  python main.py
+```
+
